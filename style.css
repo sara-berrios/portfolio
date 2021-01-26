@@ -1,0 +1,70 @@
+body{
+  background-color: #F8B195; /* light orange */
+  color: #6C5B7B; /* darker purple */
+  font-size: 18px;
+}
+
+h1, h2, h3{
+  font-family: "Georgia";
+}
+
+.about{
+  padding:20px;
+  margin-top: 75px;
+  color: #C06C84; /* light pink */
+  font-family: "Courier New";
+  text-align:center;
+}
+ul, ol{
+  color: #C06C84; /* light pink */
+  font-family: "Courier New";
+}
+h1{
+  border-bottom: 3px solid #6C5B7B;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.pic{
+  float: left;
+}
+
+#news{
+  display:block;
+  text-decoration: none;
+
+  color: #355C7D;
+  background-color: #F67280;
+  font-family: "Tahoma";
+  font-weight: bold;
+  padding:20px;
+  text-align: center;
+  border: 4px solid  #C06C84;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+
+div{
+  margin-top: 150px;
+}
+
+.bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.bar > li{
+  float: left;
+}
+.bar > li > a{
+  display: block;
+  padding: 8px;
+  background-color: #F67280;
+  text-decoration: none;
+}
+.bar > li a:hover{
+  background-color: white;
+  color: black;
+}
